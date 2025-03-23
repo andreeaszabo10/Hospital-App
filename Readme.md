@@ -15,11 +15,11 @@ This project is a hospital management system built using **Flask**. It allows fo
 - **Reports**: Generate reports of doctors with their associated patients, and treatments applied to a patient.
 
 ## Usage:
-python -m venv venv
-source venv/bin/activate
-pip install Flask Flask-SQLAlchemy Flask-Migrate Flask-JWT-Extended pytest
-flask run
-pytest test.py (to run the tests that I created for every operation)
+- python -m venv venv
+- source venv/bin/activate
+- pip install Flask Flask-SQLAlchemy Flask-Migrate Flask-JWT-Extended pytest
+- flask run
+- pytest test.py (to run the tests that I created for every operation)
 ## Endpoints
 - Authentication
 POST /login: Authenticates the user and returns a JWT token. You can log in as:
